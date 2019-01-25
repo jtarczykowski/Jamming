@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.25807.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{6E9C53E6-EE6A-4057-BAD8-C470348655C7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{AFD879CC-DA1B-4728-A9E4-7890C965C952}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{03E1BCD7-AABC-41AE-B5E1-5835BF1C12AA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{3DF388EF-0541-4D98-B373-0457492F4CFE}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BengHouse", "Intermediate\ProjectFiles\BengHouse.vcxproj", "{1AC58109-6ED3-42CA-96B8-802B14BA119E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{51E3508E-BCEC-42FD-B05D-93A019E901A3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{A2523DE5-CDE7-4930-BABB-772B17CFF90C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{439FA269-A41A-42CA-954C-3AB47E699810}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\Unreal\UE_4.21\Engine\Extras\VisualStudioDebugging\UE4.natvis = ..\..\Unreal\UE_4.21\Engine\Extras\VisualStudioDebugging\UE4.natvis
+		D:\Unreal\UE_4.21\Engine\Extras\VisualStudioDebugging\UE4.natvis = D:\Unreal\UE_4.21\Engine\Extras\VisualStudioDebugging\UE4.natvis
 	EndProjectSection
 EndProject
 Global
@@ -81,7 +81,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{51E3508E-BCEC-42FD-B05D-93A019E901A3} = {6E9C53E6-EE6A-4057-BAD8-C470348655C7}
-		{1AC58109-6ED3-42CA-96B8-802B14BA119E} = {03E1BCD7-AABC-41AE-B5E1-5835BF1C12AA}
+		{51E3508E-BCEC-42FD-B05D-93A019E901A3} = {AFD879CC-DA1B-4728-A9E4-7890C965C952}
+		{1AC58109-6ED3-42CA-96B8-802B14BA119E} = {3DF388EF-0541-4D98-B373-0457492F4CFE}
 	EndGlobalSection
 EndGlobal
