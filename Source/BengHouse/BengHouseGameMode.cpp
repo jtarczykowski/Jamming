@@ -10,10 +10,4 @@ ABengHouseGameMode::ABengHouseGameMode()
 	// use our custom PlayerController class
 	PlayerControllerClass = ABengHousePlayerController::StaticClass();
 
-	// set default pawn class to our Blueprinted character
-	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/TopDownCPP/Blueprints/TopDownCharacter"));
-	if (PlayerPawnBPClass.Class != NULL)
-	{
-		DefaultPawnClass = PlayerPawnBPClass.Class;
-	}
 }
